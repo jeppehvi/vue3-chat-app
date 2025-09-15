@@ -8,18 +8,21 @@
 
 A modern real-time chat application built with Vue 3, TypeScript, Vite, Tailwind CSS, and Socket.io. Features include live messaging, emoji support, online user tracking, typing indicators, and a clean, responsive UI.
 
-## 🔗 Live Demo
 
-**[Try the Vue 3 Chat App →](#)**
+## �️ Screenshots
 
-![Chat App Preview](./public/vite.svg)
+![Login Screen](./public/login.png)
+*Login screen of the chat app*
+
+![Chat Room](./public/chat.png)
+*Main chat room interface*
 
 ## 🌟 Features
 
 - **Real-Time Messaging**: Instant chat powered by Socket.io
 - **Emoji Support**: Insert emojis via picker or shortcodes (e.g. :smirk:)
 - **Online Users Sidebar**: See who's online and who's typing
-- **Typing Indicators**: Live feedback when users are composing messages
+- **Typing Indicators**: See when other users are typing in real time
 - **Join/Leave Notifications**: System messages for user activity
 - **Responsive Design**: Works on desktop and mobile
 - **Modern Tech Stack**: Vue 3, Vite, Tailwind CSS, TypeScript
