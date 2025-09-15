@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply h-full;
+  }
+  
+  body {
+    @apply bg-gray-50;
+  }
+}
+
+@layer components {
+  .chat-message {
+    @apply animate-fade-in;
+  }
+  
+  .user-badge {
+    @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800;
+  }
+  
+  .system-message {
+    @apply text-center text-sm text-gray-500 italic py-2;
+  }
+  
+  .message-bubble {
+    @apply bg-white rounded-lg px-4 py-3 shadow-sm border hover:shadow-md transition-shadow duration-200;
+  }
+  
+  .online-indicator {
+    @apply w-2 h-2 bg-green-400 rounded-full animate-pulse;
+  }
+}

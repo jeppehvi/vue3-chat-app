@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-chat-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A real-time chat application with Vue 3 and Node.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": [
+    "chat",
+    "vue3",
+    "nodejs",
+    "socket.io",
+    "real-time"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}
